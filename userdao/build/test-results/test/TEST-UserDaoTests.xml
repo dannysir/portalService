@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserDaoTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-17T09:30:59" hostname="sanui-MacBookPro.local" time="0.193">
+<testsuite name="UserDaoTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-03-24T08:56:58" hostname="sanui-MacBookPro.local" time="2.848">
   <properties/>
-  <testcase name="get()" classname="UserDaoTests" time="0.193"/>
+  <testcase name="getForHalla()" classname="UserDaoTests" time="0.811"/>
+  <testcase name="insert()" classname="UserDaoTests" time="0.12"/>
+  <testcase name="get()" classname="UserDaoTests" time="0.014"/>
+  <testcase name="insertForHalla()" classname="UserDaoTests" time="1.901"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
