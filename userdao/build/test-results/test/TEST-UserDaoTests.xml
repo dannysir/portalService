@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="UserDaoTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-04-07T09:33:19" hostname="sanui-MacBookPro.local" time="0.314">
+<testsuite name="UserDaoTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-04-14T07:30:34" hostname="sanui-MacBookPro.local" time="0.323">
   <properties/>
-  <testcase name="delete()" classname="UserDaoTests" time="0.227"/>
-  <testcase name="insert()" classname="UserDaoTests" time="0.027"/>
+  <testcase name="delete()" classname="UserDaoTests" time="0.233"/>
+  <testcase name="insert()" classname="UserDaoTests" time="0.028"/>
   <testcase name="update()" classname="UserDaoTests" time="0.043"/>
   <testcase name="get()" classname="UserDaoTests" time="0.015"/>
   <system-out><![CDATA[]]></system-out>
