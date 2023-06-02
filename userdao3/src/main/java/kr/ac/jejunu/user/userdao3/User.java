@@ -1,5 +1,6 @@
 package kr.ac.jejunu.user.userdao3;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -13,5 +14,7 @@ public class User {
     private Long id;
     private String name;
     private String password;
-
+    @JsonIgnoreProperties({"user"})
+    @OneToMany(mappedBy = "user")
+    private List<Comment> comments;
 }

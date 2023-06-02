@@ -10,6 +10,7 @@ public class CommentController {
     private final CommentDao commentDao;
     @PostMapping
     public Comment add(@RequestBody Comment comment){
+
         return commentDao.save(comment);
     }
     @GetMapping("/{id}")

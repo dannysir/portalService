@@ -20,7 +20,7 @@ public class Comment {
     @LastModifiedDate
     private LocalDateTime modifiedDate;
     //ormapping
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JsonIgnoreProperties({"comments"})
     private User user;
     @Version
