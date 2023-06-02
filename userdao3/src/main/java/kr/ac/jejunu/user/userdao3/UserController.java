@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class UserController {
     private final UserDao userDao;
-    @GetMapping("/user/{id}")
+    @GetMapping("/{id}")
     public User get(@PathVariable Long id){
         return userDao.findById(id).get();
     }
+
 }
