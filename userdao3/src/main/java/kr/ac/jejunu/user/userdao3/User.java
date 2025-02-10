@@ -3,6 +3,7 @@ package kr.ac.jejunu.user.userdao3;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Data;
+import org.springframework.stereotype.Controller;
 
 import java.util.List;
 
